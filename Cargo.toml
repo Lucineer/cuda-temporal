@@ -2,7 +2,12 @@
 name = "cuda-temporal"
 version = "0.1.0"
 edition = "2021"
-description = "Temporal reasoning — time-aware agent logic with intervals, causality, deadlines, and scheduling"
+description = "Temporal reasoning — intervals, causal chains, deadline urgency"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-temporal"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
